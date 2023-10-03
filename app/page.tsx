@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import TopicList from "@/components/TopicList";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div>Hello world!</div>
-  )
+    <div>
+      <TopicList />
+    </div>
+  );
 }
